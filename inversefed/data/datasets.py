@@ -1,9 +1,4 @@
-"""This is dataset.py from pytorch-examples.
 
-Refer to
-
-https://github.com/pytorch/examples/blob/master/super_resolution/dataset.py.
-"""
 import torch
 import torch.utils.data as data
 

@@ -1,36 +1,4 @@
-"""https://github.com/jhjacobsen/pytorch-i-revnet/blob/master/models/iRevNet.py.
 
-Code for "i-RevNet: Deep Invertible Networks"
-https://openreview.net/pdf?id=HJsjkMb0Z
-ICLR, 2018
-
-
-(c) Joern-Henrik Jacobsen, 2018
-"""
-
-"""
-MIT License
-
-Copyright (c) 2018 Jörn Jacobsen
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-"""
 
 import torch
 import torch.nn as nn
@@ -39,7 +7,6 @@ from .revnet_utils import split, merge, injective_pad, psi
 
 
 class irevnet_block(nn.Module):
-    """This is an i-revnet block from Jacobsen et al."""
 
     def __init__(self, in_ch, out_ch, stride=1, first=False, dropout_rate=0.,
                  affineBN=True, mult=4):
@@ -108,7 +75,6 @@ class irevnet_block(nn.Module):
 
 
 class iRevNet(nn.Module):
-    """This is an i-revnet from Jacobsen et al."""
 
     def __init__(self, nBlocks, nStrides, nClasses, nChannels=None, init_ds=2,
                  dropout_rate=0., affineBN=True, in_shape=None, mult=4):

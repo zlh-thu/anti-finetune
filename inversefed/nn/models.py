@@ -1,5 +1,3 @@
-"""Define basic models and translate some torchvision stuff."""
-"""Stuff from https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py."""
 import torch
 import torchvision
 import torch.nn as nn

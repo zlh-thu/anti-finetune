@@ -1,4 +1,4 @@
-"""For monkey-patching into meta-learning frameworks."""
+
 import torch
 import torch.nn.functional as F
 from collections import OrderedDict

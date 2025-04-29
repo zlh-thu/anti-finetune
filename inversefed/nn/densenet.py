@@ -1,5 +1,4 @@
-"""DenseNet in PyTorch."""
-"""Adaptation we did with ******."""
+
 import math
 
 import torch

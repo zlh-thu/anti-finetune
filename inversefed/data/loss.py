@@ -1,16 +1,9 @@
-"""Define various loss functions and bundle them with appropriate metrics."""
 
 import torch
 import numpy as np
 
 class Loss:
-    """Abstract class, containing necessary methods.
 
-    Abstract class to collect information about the 'higher-level' loss function, used to train an energy-based model
-    containing the evaluation of the loss function, its gradients w.r.t. to first and second argument and evaluations
-    of the actual metric that is targeted.
-
-    """
 
     def __init__(self):
         """Init."""
@@ -28,10 +21,6 @@ class Loss:
 
 
 class PSNR(Loss):
-    """A classical MSE target.
-
-    The minimized criterion is MSE Loss, the actual metric is average PSNR.
-    """
 
     def __init__(self):
         """Init with torch MSE."""

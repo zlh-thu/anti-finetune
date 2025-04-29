@@ -1,4 +1,3 @@
-"""Repeatable code parts concerning data loading."""
 
 
 import torch

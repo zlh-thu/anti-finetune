@@ -1,4 +1,4 @@
-"""This is code based on https://sudomake.ai/inception-score-explained/."""
+
 import torch
 import torchvision
 
