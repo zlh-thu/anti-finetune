@@ -1,6 +1,6 @@
 # Anti-FT: Towards Practical Deep Leakage from Gradients
 
-This repository is the official implementation of our ICIP 2025 submission [Anti-FT: Towards Practical Deep Leakage from Gradients](). 
+This repository is the official implementation of our ICIP 2025 submission Anti-FT: Towards Practical Deep Leakage from Gradients. 
 
 ## Requirements
 
