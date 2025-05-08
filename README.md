@@ -60,10 +60,6 @@ data
 >[data](https://www.dropbox.com/scl/fo/aatioydqvc8k7t9hj42dl/AG0Mc3gbkUP3hSdqBiBwlLQ?rlkey=l6mfis5j1zbyei7wd1b9zdz1i&st=w8x75hxc&dl=0)
 
 
-## Model Preparation
->📋  CheckPoint Download Link:  
->[model](https://www.dropbox.com/scl/fo/xfjr38wfhysdb3k35elz2/AO_80Mmf03vkE9re8X3j-Qg?rlkey=1jtzq5zts0ga8llveavkc8xg1&st=zx9blt9l&dl=0)
-
 
 
 ## Anti-Finetune 
