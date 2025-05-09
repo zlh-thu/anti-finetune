@@ -68,7 +68,7 @@ Attack target client with Anti-Finetune. The results will be saved in ``save``.
 CIFAR-10:
 ```Attack
 python federated_main.py --epochs=312500 --local_bs=4   --attack_num=100 --gpu=0 --exp_id=1 --load_data_from_dir=./data --changing_round=156250 --mood=avg_loss --attack=anti_finetune --model=resnet18 --leakage_attack --anti_finetune_ep=5 --max_iterations=4000
-python federated_main.py --epochs=4883   --local_bs=128 --attack_num=100 --gpu=0 --exp_id=1 --load_data_from_dir=./data --changing_round=0      --mood=avg_loss --attack=anti_finetune --model=resnet18 --leakage_attack --anti_finetune_ep=5 --max_iterations=4000 --resume=./model/ckpt/cifar10_global_epoch4883.pt
+python federated_main.py --epochs=4883   --local_bs=128 --attack_num=100 --gpu=0 --exp_id=1 --load_data_from_dir=./data --changing_round=0      --mood=avg_loss --attack=anti_finetune --model=resnet18 --leakage_attack --anti_finetune_ep=5 --max_iterations=4000 --resume=[your ckpt]
 ```
 
 ImageNet:
